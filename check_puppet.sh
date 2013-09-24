@@ -108,7 +108,7 @@ do
 	get_puppetservice_state $NAME "$DESC"
 	;;
 	*) echo "Unknown argument: $1"
-	exit $STATE_UNKNOWN
+	exit $UNKNOWN_STATE
 	;;
 	esac
 shift
